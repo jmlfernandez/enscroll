@@ -525,6 +525,9 @@
 				preventDefault( event );
 			}
 		}
+		
+		event.stopPropagation();
+		
 	},
 
 	paneScrolled = function() {
